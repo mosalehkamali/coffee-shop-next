@@ -13,7 +13,7 @@ import { Navigation } from 'swiper/modules';
 
 function Slider() {
   return <>
-    <Swiper loop={true} navigation={true} modules={[Navigation]} className={styles.swiper}>
+    <Swiper speed={1000} loop={true} navigation={true} modules={[Navigation]} className={styles.swiper}>
       <SwiperSlide className={styles.swiper_slide} style={{ backgroundImage: 'url("images/carousel-1.jpg")' }}>
         <div class="carousel-item">
           <div class={`${styles.slider_caption} d-flex flex-column align-items-center justify-content-center`}>
