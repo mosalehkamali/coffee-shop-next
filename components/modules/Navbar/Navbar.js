@@ -8,7 +8,7 @@ function Navbar() {
         className={`${styles.navbar} ${styles.navbar_expand_lg} bg-none navbar-dark py-3`}
       >
         <a href="index.html" className={`${styles.navbar_brand} px-lg-4 m-0`}>
-          <h1 className="m-0 display-4 text-uppercase text-white">Next-Coffee</h1>
+          <h1 className="m-0 display-4 text-uppercase text-white">Next Coffee</h1>
         </a>
         <button
           type="button"
