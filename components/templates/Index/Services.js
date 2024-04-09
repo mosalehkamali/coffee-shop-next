@@ -8,28 +8,28 @@ function Services() {
       id: '1',
       img:'images/service-1.jpg',
       title: 'Fastest Door Delivery',
-      icon:'fa fa-truck service-icon',
+      icon:'faTruck',
       description: 'Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor'
     },
     {
       id: '2',
       img:'images/service-2.jpg',
       title: 'Fresh Coffee Beans',
-      icon:'fa fa-coffee service-icon',
+      icon:'faCoffee',
       description: 'Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor'
     },
     {
       id: '3',
       img:'images/service-3.jpg',
       title: 'Best Quality Coffee',
-      icon:'fa fa-award service-icon',
+      icon:'faAward',
       description: 'Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor'
     },
     {
       id: '4',
       img:'images/service-4.jpg',
       title: 'Online Table Booking',
-      icon:'fa fa-table service-icon',
+      icon:'faTable',
       description: 'Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor'
     },
     
