@@ -1,9 +1,12 @@
+import PageHeader from '@/components/modules/PageHeader/PageHeader'
 import React from 'react'
+import Story from '@/components/templates/About/Story'
 
 function About() {
   return (
     <>
-     <h1>about page</h1> 
+    <PageHeader route={"About"}></PageHeader>
+    <Story></Story>
     </>
   )
 }

@@ -1,4 +1,3 @@
-import { ImageResponse } from "next/server";
 import React, { Component } from "react";
 
 export class About extends Component {

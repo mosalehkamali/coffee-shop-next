@@ -1,7 +1,8 @@
 import React from "react";
+import About from "../Index/About";
 
 function Story() {
-  return <div>Story</div>;
+  return <About></About>
 }
 
 export default Story;
