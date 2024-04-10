@@ -2,6 +2,7 @@ import About from "@/components/templates/Index/About";
 import Menu from "@/components/templates/Index/Menu";
 import Offer from "@/components/templates/Index/Offer";
 import Services from "@/components/templates/Index/Services";
+import Reservation from "@/components/templates/Index/reservation";
 import Slider from "@/components/templates/Index/Slider";
 import React from "react";
 
@@ -13,6 +14,7 @@ export default function Home({data}) {
       <Services services={data.services}></Services>
       <Offer></Offer>
       <Menu  menu={data.menu}></Menu>
+      <Reservation></Reservation>
     </>
   );
 }
