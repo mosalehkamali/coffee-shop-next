@@ -29,7 +29,68 @@
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor"
     }
   ],
-  "newsLetters": [
-    
+  "newsLetters": [],
+  "menu":[
+    {
+      "id":1,
+      "title":"Black Coffee",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "price":"$5",
+      "type":"cold",
+      "score":5,
+      "off":0,
+      "image":"images/menu-1.jpg"
+    },
+    {
+      "id":2,
+      "title":"Black Coffee",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "price":"$5",
+      "type":"hot",
+      "score":5,
+      "off":0,
+      "image":"images/menu-1.jpg"
+    },
+    {
+      "id":3,
+      "title":"Chocolete Coffee",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "price":"$5",
+      "type":"cold",
+      "score":5,
+      "off":0,
+      "image":"images/menu-2.jpg"
+    },
+    {
+      "id":4,
+      "title":"Chocolete Coffee",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "price":"$5",
+      "type":"hot",
+      "score":5,
+      "off":0,
+      "image":"images/menu-2.jpg"
+    },
+    {
+      "id":5,
+      "title":"Coffee With Milk",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "price":"$5",
+      "type":"cold",
+      "score":5,
+      "off":0,
+      "image":"images/menu-3.jpg"
+    },
+    {
+      "id":6,
+      "title":"Coffee With Milk",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "price":"$5",
+      "type":"hot",
+      "score":5,
+      "off":0,
+      "image":"images/menu-3.jpg"
+    }
   ]
+
 }
