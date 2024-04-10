@@ -12,7 +12,7 @@ function Services({services}) {
         <div className="row">
           {
             services.map((service)=>(
-              <ServiceItem {...service}></ServiceItem>
+              <ServiceItem key={service.id} {...service}></ServiceItem>
             ))
           }
         </div>
