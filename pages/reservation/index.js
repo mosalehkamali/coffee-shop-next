@@ -1,9 +1,11 @@
 import React from 'react'
-
+import PageHeader from '@/components/modules/PageHeader/PageHeader'
+import Reservation from '@/components/templates/Index/reservation'
 function index() {
   return (
     <>
-      <h1>reservation page</h1>
+      <PageHeader route={"reservation"}></PageHeader>
+      <Reservation></Reservation>
     </>
   )
 }
