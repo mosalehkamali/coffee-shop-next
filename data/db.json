@@ -29,11 +29,7 @@
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor"
     }
   ],
-
-  "newsLetters": [
-
-  ],
-
+  "newsLetters": [],
   "menu": [
     {
       "id": 1,
@@ -96,11 +92,7 @@
       "image": "images/menu-3.jpg"
     }
   ],
-
-  "reserve": [
-
-  ],
-
+  "reserve": [],
   "comments": [
     {
       "id": 1,
@@ -136,6 +128,22 @@
       "productID": 1,
       "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
       "profile": "/images/testimonial-4.jpg"
+    }
+  ],
+  "messages": [
+    {
+      "id": "b4d9",
+      "userName": "صالح",
+      "userEmail": "mosalehkamali@gmail.com",
+      "subject": "مشکل در ورد پرس",
+      "message": "lorem"
+    },
+    {
+      "id": "0932",
+      "userName": "صالح",
+      "userEmail": "mosalehkamali@gmail.com",
+      "subject": "مشکل در ورد پرس",
+      "message": "lorem"
     }
   ]
 }
