@@ -1,7 +1,8 @@
 import React from "react";
+import Services from "../Index/Services";
 
-function ServicesDetails() {
-  return <div>ServicesDetails</div>;
+function ServicesDetails({Services}) {
+  return (<Services Services={Services}></Services>)
 }
 
 export default ServicesDetails;

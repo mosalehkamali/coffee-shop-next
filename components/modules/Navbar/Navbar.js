@@ -33,9 +33,9 @@ function Navbar() {
             <Link href="/about" className={`${styles.nav_link}`}>
               About
             </Link>
-            <a href="service.html" className={`${styles.nav_link}`}>
+            <Link href="/services" className={`${styles.nav_link}`}>
               Service
-            </a>
+            </Link>
             <a href="menu.html" className={`${styles.nav_link}`}>
               Menu
             </a>
