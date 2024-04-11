@@ -5,7 +5,7 @@ import Story from '@/components/templates/About/Story'
 function About() {
   return (
     <>
-    <PageHeader route={"About"}></PageHeader>
+    <PageHeader route={"About Us"}></PageHeader>
     <Story></Story>
     </>
   )

@@ -14,7 +14,7 @@ export default function Home({data}) {
       <About></About>
       <Services services={data.services}></Services>
       <Offer></Offer>
-      <Menu  menu={data.menu}></Menu>
+      <Menu sliceNumber={3}  menu={data.menu}></Menu>
       <Reservation></Reservation>
       <Testimonial comments={data.comments}></Testimonial>
     </>

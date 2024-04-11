@@ -1,5 +1,4 @@
 import PageHeader from '@/components/modules/PageHeader/PageHeader'
-import ServicesDetails from '@/components/templates/Services/ServicesDetails'
 import React from 'react'
 import Services from '@/components/templates/Index/Services'
 
