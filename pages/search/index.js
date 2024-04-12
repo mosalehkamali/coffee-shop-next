@@ -46,8 +46,8 @@ function Search({query , menu}) {
 
 export default Search
 
-export async function getServerSideProps(contax){
-const query = contax.query.q
+export async function getServerSideProps(context){
+const query = context.query.q
 const res = await fetch("http://localhost:4000/menu")
 const menu = await res.json();
 
