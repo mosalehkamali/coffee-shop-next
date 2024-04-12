@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -7,6 +7,8 @@ import { FaSearch } from "react-icons/fa";
 function Navbar() {
   const route = useRouter();
   const [search, setSearch] = useState("");
+
+  useEffect(()=>setSearch(route.query.q),[])
 
   const searchHandler = () => { 
     if (search !== "") {

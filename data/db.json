@@ -2,28 +2,28 @@
   "services": [
     {
       "id": 1,
-      "img": "images/service-1.jpg",
+      "image": "images/service-1.jpg",
       "title": "Fastest Door Delivery",
       "icon": "faTruck",
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor"
     },
     {
       "id": 2,
-      "img": "images/service-2.jpg",
+      "image": "images/service-2.jpg",
       "title": "Fresh Coffee Beans",
       "icon": "faCoffee",
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor"
     },
     {
       "id": 3,
-      "img": "images/service-3.jpg",
+      "image": "images/service-3.jpg",
       "title": "Best Quality Coffee",
       "icon": "faAward",
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor"
     },
     {
       "id": 4,
-      "img": "images/service-4.jpg",
+      "image": "images/service-4.jpg",
       "title": "Online Table Booking",
       "icon": "faTable",
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor"
@@ -34,62 +34,62 @@
     {
       "id": 1,
       "title": "Black Coffee",
+      "price": 5,
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "price": "$5",
-      "type": "cold",
       "score": 5,
       "off": 0,
-      "image": "images/menu-1.jpg"
+      "type": "cold",
+      "image": "/images/menu-1.jpg"
     },
     {
       "id": 2,
-      "title": "Black Coffee",
+      "title": "Hot Chocolete",
+      "price": 4,
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "price": "$5",
-      "type": "hot",
-      "score": 5,
+      "score": 4.4,
       "off": 0,
-      "image": "images/menu-1.jpg"
+      "type": "hot",
+      "image": "/images/menu-2.jpg"
     },
     {
       "id": 3,
-      "title": "Chocolete Coffee",
+      "title": "Ice Cream",
+      "price": 6,
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "price": "$5",
-      "type": "cold",
-      "score": 5,
+      "score": 4.9,
       "off": 0,
-      "image": "images/menu-2.jpg"
+      "type": "cold",
+      "image": "/images/menu-3.jpg"
     },
     {
       "id": 4,
-      "title": "Chocolete Coffee",
+      "title": "Tea",
+      "price": 3,
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "price": "$5",
-      "type": "hot",
       "score": 5,
       "off": 0,
-      "image": "images/menu-2.jpg"
+      "type": "hot",
+      "image": "/images/menu-4.jpeg"
     },
     {
       "id": 5,
-      "title": "Coffee With Milk",
+      "title": "Chocolate Milk",
+      "price": 4,
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "price": "$5",
-      "type": "cold",
-      "score": 5,
+      "score": 4.8,
       "off": 0,
-      "image": "images/menu-3.jpg"
+      "type": "hot",
+      "image": "/images/menu-5.jpeg"
     },
     {
       "id": 6,
-      "title": "Coffee With Milk",
+      "title": "Banana Milk",
+      "price": 12,
       "description": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "price": "$5",
-      "type": "hot",
-      "score": 5,
+      "score": 4.9,
       "off": 0,
-      "image": "images/menu-3.jpg"
+      "type": "cold",
+      "image": "/images/menu-6.jpeg"
     }
   ],
   "reserve": [],
