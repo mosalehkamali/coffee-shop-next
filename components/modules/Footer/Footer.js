@@ -1,4 +1,11 @@
 import React from "react";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -6,19 +13,18 @@ function Footer() {
     <div className="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
         <div className="col-lg-3 col-md-6 mb-5">
             <h4 className="text-white text-uppercase mb-4" style={{letterSpacing: "3px"}}>Get In Touch</h4>
-            <p><i className="fa fa-map-marker-alt mr-2">
-              </i>123 Street, New York, USA</p>
-            <p><i className="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-            <p className="m-0"><i className="fa fa-envelope mr-2"></i>info@example.com</p>
+            <p><FaMapMarkerAlt/>123 Street, New York, USA</p>
+            <p><FaPhoneAlt/>+012 345 67890</p>
+            <p className="m-0"><FaEnvelope/>info@example.com</p>
         </div>
         <div className="col-lg-3 col-md-6 mb-5">
             <h4 className="text-white text-uppercase mb-4" style={{letterSpacing: "3px"}}>Follow Us</h4>
             <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
             <div className="d-flex justify-content-start">
-                <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-twitter"></i></a>
-                <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-facebook-f"></i></a>
-                <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-linkedin-in"></i></a>
-                <a className="btn btn-lg btn-outline-light btn-lg-square" href="#"><i className="fab fa-instagram"></i></a>
+                <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><FaTwitter /></a>
+                <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><FaFacebookF /></a>
+                <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><FaLinkedinIn /></a>
+                <a className="btn btn-lg btn-outline-light btn-lg-square" href="#"><FaInstagram /></a>
             </div>
         </div>
         <div className="col-lg-3 col-md-6 mb-5">
